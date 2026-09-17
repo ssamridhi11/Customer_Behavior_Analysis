@@ -76,7 +76,7 @@ FROM customer
 WHERE previous_purchases > 5
 GROUP BY subscription_status;
 
--- To find Revenue contribution of each age group
+-- To find Revenue contribution of each age group.
 SELECT 
     age_group,
     SUM(purchase_amount) AS total_revenue
